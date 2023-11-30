@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img010-edit.png') fixed;    
+    background-size: cover;
+    font-family: Happy Times;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    color: black;
+    z-index: 1;
+    margin:0;
+    padding:50;
+    top:0px;
+    left:0px;
+}
+
+h1 {
+    font-size: 7.5em;
+    font-family: 'Happy Times', serif;
+    font-weight:normal;
+    font-style:italic;
+    letter-spacing: -2px;
+    line-height:0.9em;
+    top:-20px;
+    left:50px;
+    position: absolute;
+    text-align: left;
+}
+
+h2 {
+    font-size: 7.5em;
+    font-family: 'Happy Times', serif;
+    font-weight:normal;
+    font-style:italic;
+    letter-spacing: -2px;
+    line-height:0.9em;
+    bottom:-40px;
+    right:50px;
+    position: absolute;
+    text-align: right;
+}
+
+h3 {
+    left:50px;
+    bottom:50px;
+    position:absolute;
+    text-align:left;
+}
